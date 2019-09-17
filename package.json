@@ -1,0 +1,21 @@
+{
+  "name": "styling-web-component-examples",
+  "version": "1.0.0",
+  "description": "Styling Web Component Examples",
+  "scripts": {
+    "start": "live-server --port=3000 ./public",
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [
+    "Web Components",
+    "CSS",
+    "Shadow Dom"
+  ],
+  "author": "Jag Reehal",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
+  }
+}
