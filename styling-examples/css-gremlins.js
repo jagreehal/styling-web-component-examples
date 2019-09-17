@@ -17,6 +17,9 @@ class CssGremlins extends LitElement {
         margin: 0;
         padding: 0;
       }
+      :host {
+        display: block;
+      }
 
       pre {
         color: #66ff00;
